@@ -4,17 +4,17 @@ let logo1 = new Image();
 let logo2 = new Image();
 
 if (document.images) {
-	PrintButton1.src = "images/print1.jpg";
-	PrintButton2.src = "images/print2.jpg";
-	logo1.src = "images/Logo2.png";
-	logo2.src = "images/Logo2_dark.png";
+	PrintButton1.src = "Images/print1.jpg";
+	PrintButton2.src = "Images/print2.jpg";
+	logo1.src = "Images/Logo2.png";
+	logo2.src = "Images/Logo2_dark.png";
 }
 
 const imgArray = [
-	'SkiCoupleLg.jpg',
-	'SkiCoupleLg1.jpg',
-	'SkiCoupleLg2.jpg',
-	'SnowBoard.jpg'
+	'skicouplelg.jpg',
+	'skicouplelg1.jpg',
+	'skicouplelg2.jpg',
+	'snowboard.jpg'
 ];
 
 const titleArray = [
@@ -24,7 +24,7 @@ const titleArray = [
 	'Snowboarder in Action'
 ];
 
-const imgPath = "images/FullSize/";
+const imgPath = "images/";
 
 function swapImage(imgID) {
 	const theImage = document.getElementById('theImage');
